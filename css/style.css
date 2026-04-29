@@ -58,7 +58,7 @@ h1{
 .formulario{
     font-family: "Passion One", sans-serif;
     color: rgb(111, 78, 55);
-    background-color: rgb(230, 217, 194);
+    background-color: rgb(233, 213, 177);
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
 }
@@ -77,4 +77,15 @@ h1{
 .apresentacao{
     font-family: "Passion One", sans-serif;
     color: rgb(111, 78, 55);
+}
+.enviar{
+    background-color: rgb(195, 121, 96);
+    color: white;
+    border-radius: 20px;
+    border-color: white;
+}
+.enviar:hover{
+    background-color: white;
+    border-color: rgb(195, 121, 96);
+    color: rgb(195, 121, 96);
 }
