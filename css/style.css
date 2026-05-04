@@ -56,6 +56,7 @@ h1{
     transform: translateY(-90px);
 }
 .formulario{
+    height: 350px;
     font-family: "Passion One", sans-serif;
     color: rgb(111, 78, 55);
     background-color: rgb(233, 213, 177);
@@ -88,4 +89,53 @@ h1{
     background-color: white;
     border-color: rgb(195, 121, 96);
     color: rgb(195, 121, 96);
+}
+ section.valores {
+  width: 70%;
+  max-width: 900px; 
+  margin: 100px auto;
+  text-align: center;
+  display: block;
+}
+
+section.valores {
+  width: 70%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+
+section.valores h1 {
+  font-family: "Sekuya", system-ui;
+  color: rgb(111, 78, 55);
+}
+
+
+.tabela-valores {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+  border-radius: 15px;
+  overflow: hidden;
+  font-family: "Passion One", sans-serif; 
+}
+
+
+.tabela-valores th {
+  background-color: rgb(111, 78, 55);
+  color: white;
+  padding: 15px;
+  font-weight: 700; 
+}
+
+
+.tabela-valores td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  font-weight: 400;
+}
+
+.tabela-valores tr:hover {
+  background-color: rgb(220, 195, 150);
 }
